@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Google Advanced Search</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topnav">
+<nav>
+<a href="index.html">Google</a>
+</nav>
+</header>
+
+
+<main class="advanced">
+<h1>Advanced Search</h1>
+
+
+<!-- Google advanced search uses as_q, as_epq, as_oq, as_eq -->
+<form class="advanced-form" method="get" action="https://www.google.com/search">
+
+
+<label class="adv-label">Find pages with... "all these words:"</label>
+<input class="adv-input" type="text" name="as_q" placeholder="all these words" />
+
+
+<label class="adv-label">Find pages with... "this exact word or phrase:"</label>
+<input class="adv-input" type="text" name="as_epq" placeholder="this exact phrase" />
+
+
+<label class="adv-label">Find pages with... "any of these words:"</label>
+<input class="adv-input" type="text" name="as_oq" placeholder="any of these words" />
+
+
+<label class="adv-label">Find pages with... "none of these words:"</label>
+<input class="adv-input" type="text" name="as_eq" placeholder="none of these words" />
+
+
+<div class="adv-actions">
+<button type="submit" class="btn btn-primary">Advanced Search</button>
+<a class="btn btn-secondary" href="index.html">Back to Google</a>
+</div>
+</form>
+
+
+<footer class="meta">Advanced search mock (CS50)</footer>
+</main>
+</body>
+</html>
