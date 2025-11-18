@@ -1,9 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Google</title>
+<title>Google Search</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,25 +14,18 @@
 </nav>
 </header>
 
-
 <main class="home">
 <img src="" alt="" class="logo" aria-hidden="true">
 
-
-<!-- Search form -->
 <form class="search-form" method="get" action="https://www.google.com/search">
 <input class="search-input" name="q" type="text" autocomplete="off" placeholder="Search Google or type a URL" />
-
 
 <div class="buttons">
 <button type="submit" class="btn">Google Search</button>
 
-
-<!-- I'm Feeling Lucky: sends btnI param to Google -->
 <button type="submit" class="btn" name="btnI" value="I" formaction="https://www.google.com/search">I'm Feeling Lucky</button>
 </div>
 </form>
-
 
 <footer class="meta">A simple front-end mock of Google Search — for CS50</footer>
 </main>
