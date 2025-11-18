@@ -87,7 +87,13 @@ transform:translateY(1px);
     filter:brightness(.98);
 }
 .btn-secondary{
-    display:inline-block;padding:10px 16px;text-decoration:none;background:transparent;border:1px solid #dcdcdc;border-radius:4px;color:#202124;
+    display:inline-block;
+    padding:10px 16px;
+    text-decoration:none;
+    background:transparent;
+    border:1px solid #dcdcdc;
+    border-radius:4px;
+    color:#202124;
 }
 
 /* Advanced page layout */
@@ -130,5 +136,4 @@ transform:translateY(1px);
     font-size:13px;
 }
 
-/* Responsive tweaks */
 @media (max-width:480px){.logo{width:220px;height:76px}.search-input{font-size:15px}}
